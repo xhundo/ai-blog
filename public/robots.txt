@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://aithewave.com
+
+# Sitemaps
+Sitemap: http://aithewave.com/sitemap.xml
