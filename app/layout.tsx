@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Analytics } from '@/components/analytics';
 import { ModeToggle } from '@/components/mode-toggle';
+import { GoogleAdsense } from './GoogleAdsense';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Analytics />
         </ThemeProvider>
       </body>
+      <GoogleAdsense pId="6573084761730961" />
     </html>
   );
 }
